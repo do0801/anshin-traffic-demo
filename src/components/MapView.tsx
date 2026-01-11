@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import L from "leaflet";
+import * as L from "leaflet";
 
 type Props = {
   onPickPoint?: (lat: number, lng: number) => void;
